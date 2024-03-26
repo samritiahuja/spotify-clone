@@ -1,0 +1,78 @@
+
+
+body{
+
+    background-color: white
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    align-items: centre;
+    list-style-type: none;
+    height: 65px;
+    background-color:black;
+
+
+    color: white;}
+    nav ul li{
+
+    
+    padding: 20px;
+}
+
+.brand img{
+
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex; 
+    align-items: center;
+    font-weight: bolder;  
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 35px;
+    background-image: url(mother.webp);
+
+}
+.bottom{
+    position: sticky;
+    height: 50px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icon{
+    margin-top: 34px;
+    
+
+}
+.icons i{
+    cursor: pointer ;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+#myprogressBar{
+    width: 150vw;
+    text-align:  center;
+    
+}
+
+
