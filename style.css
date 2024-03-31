@@ -2,7 +2,7 @@
 
 body{
 
-    background-color: white
+    background-color:grey
 }
 *{
     margin: 0;
@@ -60,7 +60,7 @@ nav ul {
     
 }
 .icon{
-    margin-top: 34px;
+    margin-top: 50px;
     
 
 }
@@ -73,6 +73,9 @@ nav ul {
     width: 150vw;
     text-align:  center;
     
+}
+.songItemContainer{
+    margin-top: 30px;
 }
 .songItem{
     height: 50px;
@@ -97,5 +100,7 @@ nav ul {
     margin: 0 23px;
 
 }
-
+.point{
+    cursor: pointer;
+}
 
