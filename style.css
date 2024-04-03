@@ -103,4 +103,8 @@ nav ul {
 .point{
     cursor: pointer;
 }
+.songItem{
+    position: absolute;
+    left: 0;
+}
 
