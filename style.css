@@ -2,7 +2,7 @@
 
 body{
 
-    background-color:grey
+    background-color:black
 }
 *{
     margin: 0;
@@ -72,6 +72,8 @@ nav ul {
 #myprogressBar{
     width: 150vw;
     text-align:  center;
+    cursor: pointer;
+
     
 }
 .songItemContainer{
@@ -103,8 +105,11 @@ nav ul {
 .point{
     cursor: pointer;
 }
-.songItem{
+.songInfo{
     position: absolute;
-    left: 0;
+    left: 10vw;
 }
-
+.songInfo img{
+    opacity: 0;
+    transition: opacity  is ease-in ;
+}
